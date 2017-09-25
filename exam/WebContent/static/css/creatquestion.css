@@ -1,0 +1,142 @@
+#varpperCreatQuestion {
+  width: 1280px; 
+  height: 760px;
+  background-color: #D2DAE3;
+  margin:0 auto;
+}
+
+#varpperCreatQuestion .main {
+  width: 1240px;
+  height: 580px;
+  margin: 10px 20px 0px 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid #9D9D9D;
+}
+
+.question-form {
+  margin: 30px 300px 0px 300px;
+  width: 820px;
+  height: 450px;
+}
+
+.question-form span {
+  width: 100px;
+  height: 20px;
+}
+.question-form input {
+  border: 1px solid #2E4358;
+  border-radius: 3px; 
+  margin-left: 30px;
+}
+
+.question-form .title .errorMessage {
+  margin-left: 20px;
+}
+
+.question-form .content {
+  width: 600px;
+  height: 80px;
+  margin-top: 30px;
+}
+.question-text {
+  width: 480px;
+  height: 170px;
+  float: right;
+}
+#question-content {
+  width: 440px;
+  height: 20px;
+  position: absolute;
+}
+
+.question-textarea {
+  width: 480px;
+  height: 110px;
+  border: 1px solid;
+  margin-top:  60px;
+  position: absolute;
+}
+
+.question-choice {
+    width: 970px;
+    height: 140px;
+    float: left;
+    margin-top: 18px;
+}
+
+.question-choice-content {
+    width: 770px;
+    float: left;
+    margin-top: -12px;
+    margin-left: 50px;
+}
+
+.answer-title {
+    float: left;
+}
+
+.one-choice {
+  font-size: 14px;
+  float :left;
+  margin-top: 15px;
+}
+
+.one-choice span {
+  margin-left: 10px;
+}
+
+.one-choice input {
+  width: 434px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.form-answer {
+  float: left;
+  width: 100px;
+  height: 20px;
+}
+
+.choice-icon {
+  float :left;
+  width: 18px;
+  height: 18px;
+  margin-left: 10px; 
+}
+
+.form-footer {
+  position: absolute;
+  height: 30px;
+  margin-top: 298px;
+  margin-left: 105px;
+}
+
+.form-footer input {
+  width: 150px;
+  height: 30px;
+  margin-left: 30px;
+  background-color: #FE9901;
+  color: #FFFFFF;
+  font-size: 14px;
+  border: 1px solid #FE9901;
+  border-radius: 3px ;
+}
+
+#contentErrorMessage {
+  width: 150px;
+  height: 20px;
+  margin-top: 100px;
+  margin-left: 495px;
+  position: absolute;
+}
+
+.errorMessage {
+  color: #FF0000;
+  font-size: 14px;
+  border: dashed 1px;
+  padding: 2px 4px 4px 4px;
+}
+#answer {
+  display: none;
+}

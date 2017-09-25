@@ -1,0 +1,248 @@
+*{
+  margin: 0px; 
+  padding: 0px;
+  font-family: "Arial", "Reular";
+}
+
+ul, ol, li {
+  list-style-type: none;
+  float: left;
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header {
+  font-family: "Arial", "Reular";
+  width: 1280px;
+  height: 80px;
+  background-color: #2E4358;
+}
+
+.header-left {
+  float: left;
+  width: 240px;
+  height: 40px;
+  background: url(../images/LOGO_Web_40x240.png) no-repeat center center;
+  margin: 20px 0px 0px 20px;
+}
+
+.header-main {;
+  width: 440px;
+  line-height: 24px;
+  font-size: 24px;
+  color: #FFFFFF;
+  position: absolute;
+  margin: 36px 0px 0px 300px;
+}
+
+.header-right {
+  float: right;
+  width: 120px;
+  height: 50px;
+  margin: 20px 20px 10px 0px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.header-right .language {
+  float: right;
+}
+
+.header-right .user {
+  margin-top: 15px;
+  height: 20px;
+  width: 100px;
+  float: left;
+}
+
+.header-right .user-icon {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  background: url(../images/ICN_Web_PersonalInformation_20x20.png)
+  no-repeat center center;
+}
+
+.header-right .user .user-name {
+  float: left;
+  margin-left: 10px;
+}
+
+.header-right .logout {
+  float: right;
+  height: 14px;
+  line-height: 14px;
+}
+
+.breadcrumb {
+  width: 1280px;
+  height: 40px;
+  background-color: #FFFFFF;
+}
+
+.breadcrumb a {
+  color: #2E4343;
+}
+
+.head-list-show {
+  width: 600px;
+  height: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #0A0A0A;
+}
+
+.head-list-show span {
+  font-size :10px;
+  color: #5E5E5E;
+}
+.question-manager {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  width: 216px;
+  font-size: 18px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: #D2DAE3;
+}
+
+.exam-manager {
+  height: 40px;
+  width: 200px;
+  float: left;
+  font-size: 18px;
+  margin-left: 74px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.pagination {
+  position: relative;
+  width: 310px;
+  height: 20px;
+  margin: 30px 340px 20px 330px;
+}
+
+.pre-page {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.next-page {
+  width: 20px;
+  height: 20px;
+  margin-left: 115px;
+  margin-right: 10px;
+  position: absolute;
+  margin-top: 5px;
+}
+
+.page-all-num {
+  width: 110px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 2px;
+  margin-left: 10px;
+  position: absolute;
+  text-align: center;
+}
+
+.page-num {
+  width: 7px;
+  height: 14px;
+  margin-top: 5px;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.page-num a {
+  color: #5E5E5E;
+}
+
+#nowPage {
+  color :#FE9901;
+}
+
+span.page-dot {
+  width: 20px;
+  margin-top: -4px;
+  margin-right: 5px;
+  position: absolute;
+}
+
+.last-pageNum {
+  margin-left: 25px;
+  width: 12px;
+  height: 14px;
+  margin-top: 5px;
+  font-size: 12px;
+
+}
+.last-pageNum  a {
+  color: #5E5E5E
+}
+.page-right {
+  float: right;
+  height: 20px;
+  margin-top: 2px;
+}
+
+.input-page-num {
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+}
+
+.bt-go {
+  width: 30px;
+  height: 20px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #FE9901;
+}
+
+.bt-delete {
+  width: 80px;
+  height: 30px;
+  float: right;
+  color: #FFFFFF;
+  margin-top: 22px;
+  background-color: #FE9901;
+  border-radius: 5px;
+  margin-right: 40px;
+  border: none
+}
+
+.errorMessage {
+  visibility: hidden;
+  color: #FF0000;
+  font-size: 12px;
+  visibility: hidden;
+}
+#errorFlashMessage {
+  background-color: #D2DAE3;
+  position: absolute;
+  width: 20%;
+  text-align: center;
+  color: #FF0000;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  z-index: 1000;
+  top: 20%;
+  left: 45%;
+  border-radius: 3px;
+  display: none; 
+}
